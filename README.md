@@ -1,3 +1,24 @@
+# Emotion Faces Dataset (7 Classes - 224x224)
+
+This repository contains a curated and preprocessed facial emotion dataset with approximately 20,000 images distributed across 7 emotion categories:
+
+- Angry
+- Disgust
+- Fear
+- Happy
+- Sad
+- Surprise
+- Neutral
+
+## 📋 Dataset Description
+
+- Each image contains **exactly one detected face**.
+- Faces were detected using **Haar Cascade (OpenCV)**.
+- Cropped face regions were resized to **224x224 pixels**.
+- Images are stored in folders named after their emotion class.
+
+## 📁 Folder Structure
+
 ```
 datasetpreprocessed/
 ├── angry/
